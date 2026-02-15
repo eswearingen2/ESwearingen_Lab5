@@ -39,3 +39,8 @@ while True:
         print("Boxcars")
     else:
         print("Nothing Special")
+    
+    endgame = input("\nPress Enter to continue rolling, or type 'quit' to stop: ").lower() # This will give the user a way to end the loop.
+    if endgame == "quit":
+        print("Goodbye!")
+        break
